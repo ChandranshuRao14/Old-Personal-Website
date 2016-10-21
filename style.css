@@ -1,0 +1,184 @@
+@media (max-width: 600px){
+	.container-fluid{
+  	padding: 8% 50px;
+	}
+	.profile{
+		width: 60%;;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 601px){
+	.container-fluid{
+  	padding: 2.5% 15%;
+	}
+	.profile{
+		width: 22%;
+		margin: 0 auto;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h1{
+		font-size: 36px;
+	}
+	p{
+		font-size: 16px;
+	}
+}
+
+/*BACKGROUNDS*/
+.bg-1{
+	background-color: white;
+	color: black;
+}
+.bg-2{
+	background-color: #30476B;
+	color: white;
+}
+.bg-menu{
+	background-color: rgb(51,51,51);
+}
+
+/*CONNECT LISTS*/
+.logo-small{
+		width: 40px;
+		margin: 0 auto;
+}
+#social li{
+	list-style-type: none;
+}
+#social li:hover img{
+	transform: scale(1.2);
+}
+#social a:hover, #social a:visited, #social a:link, #social a:active{
+	color:black;
+	text-decoration: none;
+}
+.space{
+	margin-bottom: 25px;
+}
+
+/*NAVBAR ITEMS*/
+.navbar {
+    margin-bottom: 0;
+    background-color: rgb(51,51,51);
+    z-index: 9999;
+    border: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: white !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  background-color: #646464 !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.justify{
+	text-align: justify !important;
+}
+.holder{
+	visibility: hidden;
+}
+#emptyHolder{
+	display: none;
+}
+.active{
+		background-color: #646464;
+    transition: background-color 0.1s ease-out;
+}
+.navbar-brand:hover{
+	color: #646464 !important;
+}
+
+/*TERMINAL*/
+.jumbotron{
+	height: 100vh;
+}
+.dontGrow{
+  width: 5%;
+  height: 2px;
+  background-color: white;
+  border: none;
+}
+.grow{
+  -webkit-transition: width 0.8s ease-out;
+  transition: width 0.8s  ease-out;
+	height: 2px;
+  width: 100%;
+}
+.subgreeting{
+  font-weight: 100;
+}
+.term{
+	padding-top: 8%;
+}
+@keyframes bounce {
+		0%,100% {transform: translateY(15px);}
+		50% {transform: translateY(-15px);}
+}
+.glyphicon{
+	padding-top: 50px;
+	font-size: 80px;
+	color: white;
+	animation: bounce 1s infinite ease-in-out;
+}
+.dont-show-arrow{
+	visibility: hidden;
+}
+.showArrow{
+	visibility: visible;
+}
+
+/*MODALS*/
+.modal-body{
+	padding-top: 0 !important;
+}
+.modal-header{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.modal{
+	margin-top: 70px;
+}
+.modal-img{
+	width: 90%;
+	margin-bottom: 30px;
+}
+.close{
+	margin-top: 4px;
+	padding-right: 12px;
+}
+.project-link{
+	border: 1px solid black;
+	padding: 1.5%;
+	color: black;
+	border-radius: 10px;
+}
+.project-link:hover{
+	background-color: #30476B;
+	color: white;
+	transition: background-color .2s ease-in;
+	text-decoration: none;
+}
+.btn-img{
+	width: 90%;
+	height: 100%;
+}
+.btn-info{
+	border: none;
+	background-color: #30476B;
+}
+.btn:hover, .btn:active, .btn:visited, .btn:focus{
+	background-color: #30476B;
+	opacity: 0.3;
+	border: none;
+}
+.btn:active:focus{
+	background-color: #30476B;
+}
+
+/*FOOTER*/
+.nopad{
+	padding: 5px 5px;
+}

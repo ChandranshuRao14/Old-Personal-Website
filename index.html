@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chandranshu Rao</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+
+		<nav id="menu" class="navbar navbar-default navbar-fixed-top bg-menu">
+  		<div class="container">
+    		<div class="navbar-header">
+      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+      		</button>
+      		<a id="navBrand" class="navbar-brand" href="#">Chandranshu Rao</a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      		<ul id="list" class="nav navbar-nav navbar-right">
+						<li id="emptyHolder"><a class="active holder" href="#">holder</a></li>
+        		<li><a href="#introduction">Introduction</a></li>
+        		<li><a href="#portfolio">Portfolio</a></li>
+        		<li><a href="#social">Connect</a></li>
+      		</ul>
+    		</div>
+  		</div>
+		</nav>
+
+		<div id="terminal" class="bg-2 text-center jumbotron">
+			<div id="terminalScreen" class="container-fluid term">
+				<h1>Hello.<span id="caption"></span><span id="cursor">|</span></h1>
+				<a href="#introduction"><span id="arrow" class="glyphicon glyphicon-menu-down dont-show-arrow"></span></a>
+			</div>
+		</div>
+
+		<div id="introduction" class="container-fluid text-center bg-1">
+			<h2>Introduction</h2>
+			<br>
+			<img src="./images/profile.jpg" alt="Chandranshu Rao" class="img-circle img-responsive profile">
+			<br>
+			<p class="justify">My name is Chandranshu Rao and I'm 19 years old. Currently I am an undergraduate student at the University of Texas at Dallas pursuing a Bachelor's degree in Computer Science. I'm an aspiring software developer with a passion for technology and an eagerness to learn. After my undergrad I aim to attend grad school and attain a Master's degree in Computer Science.
+			<br>
+			<br>
+			I like to code. Whether it's web development, experimenting with microcontrollers, or even writing scripts to automate stuff I don't want to do, I enjoy solving new progamming problems and challenges. I've only recently jumped into the world of programming, but, with a knack for technology along with a love for learning, I've quickly picked up CS languages and skills. Java and Python are currently my languages of choice but I'm always trying to experiment with something new, which, coincidentally, is how I learned Javascript to write this website.
+			<br>
+			<br>
+			As a self motivated student, I'm always driven to maximize my success and reach my goals. I look forward to facing new challenges, determined to take an challenge head on. In particular, I always seek opportunities to improve my knowledge and computer science skills.</p>
+		</div>
+
+		<div id="portfolio" class="container-fluid text-center bg-2">
+			<h2>Portfolio</h2>
+			<p>Below is a collection of some of my Computer Science work. Feel free to check out my projects on GitHub as well.</p>
+			<div class="row">
+				<div id="PainNeuroLab" class="col-sm-6">
+					<h4>Neuroscience Lab Website</h4>
+					<a href="#neuroLab" data-toggle="modal">
+						<div class="overlay">
+						</div>
+						<img src="./images/DRGTranscriptomeDB.png" alt="DRGTranscriptomeDB" class="btn-img btn btn-lg">
+					</a>
+					<div id="neuroLab" class="modal fade" role="dialog">
+  					<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+      					<div class="modal-body bg-1 container-fluid">
+									<h3 class="modal-title">Pain Neuroscience Lab Website</h3>
+									<br>
+									<img src="./images/DRGTranscriptomeDB.png" alt="DRGTranscriptomeDB" class="modal-img">
+									<br>
+        					<p class="justify">Rewrote UTD Pain Neuroscience Lab’s website while working in the lab as a Research Assistant. The front-end was developed using HTML5/CSS3 and JavaScript while the backend was implemented using PHP and SQL. The website integrates a searchable Gene Expression Database in the site that displays gene expression level in various tissues using Google Charts API.</p>
+									<br>
+									<a href="http://www.utdallas.edu/bbs/painneurosciencelab/" target="_blank" class="project-link">DRG Transcriptome Database</a>
+      					</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="IOTCoffee" class="col-sm-6">
+					<h4>IoT Coffee Machine</h4>
+					<a href="#CoffeeTime" data-toggle="modal">
+						<div class="overlay">
+						</div>
+						<img src="./images/EnergiaCoffeeTime.png" alt="CoffeeTime" class="btn-img btn btn-lg">
+					</a>
+					<div id="CoffeeTime" class="modal fade" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body bg-1 container-fluid">
+									<h3 class="modal-title">IoT Coffee Machine</h3>
+									<br>
+									<img src="./images/EnergiaCoffeeTime.png" alt="Energia" class="modal-img">
+									<br>
+									<p class="justify">Programmed a Texas Instruments Microcontroller to interact with a Coffee Machine and tweet when the coffee was ready as well as its temperature. The microcontroller used is the TI MSP430 and code was written in C. Temboo was also used in order to have the microcontroller work with Twitter API. Presented the product as well as my research on the application of IoT devices that I completed as a student in the ISM program.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="social" class="container-fluid text-center bg-1">
+			<h2>Connect</h2>
+			<p>Connect with me here:</p>
+			<br>
+			<div id="socialLinks" class="row">
+				<div id="resume" class="col-sm-4 space">
+					<li><a href ="Chandranshu_Rao_Resume_16F.pdf" download class="connectLink"><p>
+						<img alt = "Resume" src = "./images/resume.svg" class="img-responsive logo-small"><br>Resume</p></a></li>
+				</div>
+  			<div id="linkedin" class="col-sm-4 space">
+					<li><a href ="https://www.linkedin.com/in/chandranshurao" target="_blank" class="connectLink"><p>
+						<img alt = "LinkedIn" src = "./images/linkedin.svg" class="img-responsive logo-small"><br>LinkedIn</p></a></li>
+				</div>
+  			<div id="github" class="col-sm-4 space">
+					<li><a href ="https://github.com/ChandranshuRao14" target="_blank" class="connectLink"><p>
+						<img alt = "GitHub" src = "./images/github.svg" class="img-responsive logo-small"><br>GitHub</p></a></li>
+				</div>
+			</div>
+			<br>
+			<p>I'm always looking for new, cool things to work on so contact me with any cool projects!</p>
+		</div>
+
+		<footer id="trailer" class="container-fluid text-center bg-2 nopad">
+			<p>2016 &#169; Made by Chandranshu Rao</p>
+		</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="./js/bootstrap.min.js"></script>
+		<script src="./js/scroll.js"></script>
+		<script src="./js/terminalView.js"></script>
+  </body>
+</html>
